@@ -1,4 +1,6 @@
 import logoIcon from "/favicon.svg";
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 const Nav = () => {
   return (
