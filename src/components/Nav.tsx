@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Nav = () => {
+  const [toggled, setToggled] = useState(false);
+
   return (
-    <nav className="py-2 px-4 flex flex-row items-center gap-4">
+    <nav className="py-2 px-4 flex flex-row items-center gap-4 sticky top-0 w-full bg-purple-700 z-[2]">
       <div className="w-10 h-10">
         <img src={logoIcon} alt="" />
       </div>
